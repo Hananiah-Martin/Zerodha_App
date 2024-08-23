@@ -10,14 +10,12 @@ import Awards from './Awards.js'
 function HomePage() {
     return ( 
         <>
-            <Navbars/>
             <Hero/>
             <Awards/>
             <Stats/>
              <Pricing/>
             <Education/> 
             <OpenAccount/>
-            <Footer/>
         </>
      );
 }

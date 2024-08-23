@@ -9,7 +9,7 @@ function Navbars() {
   return (
     <Navbar expand="lg" bg="light" data-bs-theme="light" sticky="top">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           Zerodha
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -21,22 +21,22 @@ function Navbars() {
 
           >
             <Nav.Link
-              href="#action1"
+              href="/signup"
               eventKey="link-1"
               style={{ paddingRight:"2rem" }}
             >
               Signup
             </Nav.Link>
-            <Nav.Link href="#action2" eventKey="link-2" style={{ paddingRight:"2rem" }}>
+            <Nav.Link href="/about" eventKey="link-2" style={{ paddingRight:"2rem" }}>
               About
             </Nav.Link>
-            <Nav.Link href="#action2" eventKey="link-3" style={{ paddingRight:"2rem" }}>
+            <Nav.Link href="/products" eventKey="link-3" style={{ paddingRight:"2rem" }}>
               Products
             </Nav.Link>
-            <Nav.Link href="#action2" eventKey="link-4" className="lg-mx-3" style={{ paddingRight:"2rem" }}>
+            <Nav.Link href="/pricing" eventKey="link-4" className="lg-mx-3" style={{ paddingRight:"2rem" }}>
               Pricing
             </Nav.Link>
-            <Nav.Link href="#action2" eventKey="link-5" style={{ paddingRight:"2rem" }}>
+            <Nav.Link href="/support" eventKey="link-5" style={{ paddingRight:"2rem" }}>
               Support
             </Nav.Link>
           </Nav>
