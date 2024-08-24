@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
 
-const Support = () => {
+import Hero from "./Hero";
+import CreateTicket from "./CreateTicket";
+
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+
+function Support() {
   return (
-    <div>
-      Support
-    </div>
-  )
+    <>
+      <Hero />
+      <CreateTicket />
+    </>
+  );
 }
 
-export default Support
+export default Support;
